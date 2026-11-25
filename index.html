@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Gabby Louiee is a Kenyan singer, songwriter, poet, and actor in Mombasa, creating acoustic stories through soulful vocals, guitar, and poetry."
+    />
+    <meta name="theme-color" content="#eee6da" />
+    <meta property="og:title" content="Gabby Louiee — Guitarist & Vocalist" />
+    <meta
+      property="og:description"
+      content="Meet Gabby Louiee, a Kenyan singer, songwriter, poet, and actor telling acoustic stories from Mombasa."
+    />
+    <meta property="og:image" content="assets/gabby-profile.jpg" />
+    <title>Gabby Louiee — Guitarist & Vocalist</title>
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="wordmark" href="#home" aria-label="Gabby Louiee home">
+        <span class="wordmark-mark">G<span>.</span></span>
+        <span class="wordmark-name">GABBY LOUIEE</span>
+      </a>
+
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="primary-navigation"
+        aria-label="Open navigation"
+      >
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="navigation" id="primary-navigation" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#photos">Photos</a>
+        <a href="#videos">Videos</a>
+        <a href="#contact">Contact</a>
+        <a
+          class="nav-social"
+          href="https://www.instagram.com/gabby_louiee/"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Visit Gabby Louiee on Instagram"
+        >
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <rect x="3" y="3" width="18" height="18" rx="5"></rect>
+            <circle cx="12" cy="12" r="4"></circle>
+            <circle class="icon-fill" cx="18" cy="6.5" r="1"></circle>
+          </svg>
+        </a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="intro" id="home" aria-labelledby="intro-title">
+        <div class="intro-copy">
+          <p class="eyebrow">Singer <span>·</span> Songwriter <span>·</span> Poet <span>·</span> Actor</p>
+          <h1 id="intro-title">Gabby<br />Louiee<span>.</span></h1>
+          <p class="location">Mombasa, Kenya</p>
+          <a class="text-link" href="#contact">Get in touch <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="intro-portrait">
+          <img
+            src="assets/gabby-profile.jpg"
+            alt="Portrait of Gabby Louiee"
+            fetchpriority="high"
+          />
+        </div>
+        <span class="intro-mark" aria-hidden="true">G.</span>
+      </section>
+
+      <section class="about section-wrap" id="about" aria-labelledby="about-title">
+        <p class="section-label">01 / About</p>
+        <div class="about-copy">
+          <h2 id="about-title">About</h2>
+          <p>
+            I’m Gabby Louiee, a Kenyan singer, songwriter, poet, and actor based in Mombasa.
+          </p>
+          <p>
+            My work brings acoustic storytelling together with soulful vocals, guitar, and
+            poetry to explore love, identity, and the human experience. On stage, I perform
+            original music with a calm, expressive, emotionally grounded presence.
+          </p>
+        </div>
+      </section>
+
+      <section class="photos section-wrap" id="photos" aria-labelledby="photos-title">
+        <div class="photos-heading">
+          <p class="section-label">02 / Gallery</p>
+          <h2 id="photos-title">Photos</h2>
+        </div>
+        <div class="photo-grid">
+          <figure class="photo-card">
+            <img
+              src="assets/gabby-performing-01.jpg"
+              alt="Gabby Louiee playing guitar on stage"
+              loading="lazy"
+            />
+          </figure>
+          <figure class="photo-card">
+            <img
+              src="assets/gabby-performing-02.jpg"
+              alt="Gabby Louiee performing with his guitar"
+              loading="lazy"
+            />
+          </figure>
+          <figure class="photo-card">
+            <img
+              src="assets/gabby-performing-03.jpg"
+              alt="Gabby Louiee singing and playing guitar at a microphone"
+              loading="lazy"
+            />
+          </figure>
+          <figure class="photo-card">
+            <img
+              src="assets/gabby-photo-04.jpg"
+              alt="Gabby Louiee in a beige jacket"
+              loading="lazy"
+            />
+          </figure>
+          <figure class="photo-card">
+            <img
+              src="assets/gabby-photo-05.jpg"
+              alt="Gabby Louiee looking to the side"
+              loading="lazy"
+            />
+          </figure>
+          <div class="photo-placeholder" aria-label="Space for another photo">
+            <span aria-hidden="true">+</span>
+            <span class="placeholder-number">06</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="videos section-wrap" id="videos" aria-labelledby="videos-title">
+        <div class="videos-heading">
+          <p class="section-label">03 / Videos</p>
+          <h2 id="videos-title">Videos</h2>
+        </div>
+        <video
+          class="video-player"
+          controls
+          playsinline
+          preload="metadata"
+          poster="assets/gabby-performing-03.jpg"
+          aria-label="Gabby Louiee live performance"
+        >
+          <source src="assets/gabby-live.mp4" type="video/mp4" />
+          Your browser does not support embedded videos.
+        </video>
+      </section>
+
+      <section class="contact section-wrap" id="contact" aria-labelledby="contact-title">
+        <p class="section-label">04 / Contact</p>
+        <div class="contact-content">
+          <h2 id="contact-title">Contact</h2>
+          <div class="booking-card">
+            <p class="booking-intro">Booking enquiry</p>
+            <form class="booking-form" id="booking-form">
+              <div class="booking-fields">
+                <label class="form-name">
+                  Name
+                  <input
+                    type="text"
+                    name="name"
+                    autocomplete="name"
+                    maxlength="100"
+                    required
+                  />
+                </label>
+                <label>
+                  Email <span class="field-note">optional</span>
+                  <input
+                    type="email"
+                    name="email"
+                    autocomplete="email"
+                    maxlength="254"
+                  />
+                </label>
+                <label>
+                  Phone <span class="field-note">optional</span>
+                  <input
+                    type="tel"
+                    name="phone"
+                    autocomplete="tel"
+                    maxlength="30"
+                  />
+                </label>
+                <label class="form-message">
+                  Short message
+                  <textarea
+                    name="message"
+                    rows="4"
+                    maxlength="500"
+                    required
+                  ></textarea>
+                </label>
+              </div>
+              <p class="booking-instruction">
+                Add an email or phone number. Submit opens WhatsApp with your message
+                and downloads a PNG card. Attach it in WhatsApp or share it below on supported devices.
+              </p>
+              <div class="booking-actions">
+                <button class="contact-link booking-submit" type="submit">
+                  Submit
+                  <span class="contact-arrow" aria-hidden="true">↗</span>
+                </button>
+                <button class="share-booking-card" id="share-booking-card" type="button" hidden>
+                  Share booking card
+                </button>
+                <a
+                  class="contact-link whatsapp-fallback"
+                  id="whatsapp-fallback"
+                  href="https://wa.me/254789712372"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  hidden
+                >
+                  Open WhatsApp
+                  <span class="contact-arrow" aria-hidden="true">↗</span>
+                </a>
+              </div>
+            </form>
+            <p class="booking-status" id="booking-status" role="status" aria-live="polite" hidden></p>
+          </div>
+
+          <div class="contact-direct">
+            <p class="direct-label">Or contact directly</p>
+            <div class="direct-links">
+              <a
+                class="contact-link"
+                href="https://wa.me/254789712372"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M20.5 11.8a8.3 8.3 0 0 1-12.3 7.3L3 20.5l1.4-5a8.3 8.3 0 1 1 16.1-3.7Z"></path>
+                  <path d="M9 8.2c.2-.4.4-.4.7-.4h.4c.2 0 .4.1.5.4l.7 1.7c.1.2.1.4-.1.6l-.5.6c-.2.2-.2.4-.1.6.4.7 1 1.4 1.7 1.8.2.1.4.1.6-.1l.7-.8c.2-.2.4-.2.6-.1l1.6.8c.2.1.4.2.4.4 0 .3-.1 1-.7 1.4-.5.5-1.3.7-2 .5-1-.2-2.2-.8-3.4-1.9-1-.9-1.7-2.1-1.9-3-.2-.9.1-1.8.5-2.5Z"></path>
+                </svg>
+                <span>+254 789 712 372</span>
+                <span class="contact-arrow" aria-hidden="true">↗</span>
+              </a>
+              <a
+                class="instagram-link"
+                href="https://www.instagram.com/gabby_louiee/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <rect x="3" y="3" width="18" height="18" rx="5"></rect>
+                  <circle cx="12" cy="12" r="4"></circle>
+                  <circle class="icon-fill" cx="18" cy="6.5" r="1"></circle>
+                </svg>
+                Instagram
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="footer-wordmark" href="#home">GABBY LOUIEE<span>.</span></a>
+      <span>Mombasa, Kenya <span class="footer-divider">·</span> © <span id="year"></span></span>
+    </footer>
+  </body>
+</html>
